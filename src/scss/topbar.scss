@@ -1,0 +1,58 @@
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap";
+$font: 'Noto Sans', sans-serif;
+$global-color: white;
+.butt {
+  font-family: $font;
+  text-decoration: none;
+  color: $global-color;
+}
+ul {
+  position: absolute;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+}
+.banner-img {
+  /*  background: url("../img/background_1.png") repeat;*/
+  background: url("https://i.imgur.com/yxmDfU2.png") repeat;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 800px;
+  opacity: 0.7;
+}
+.black {
+  background-color: black;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 800px;
+}
+#header-text1 {
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+  top: 200px;
+  left: 50px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 45px;
+  position: absolute;
+  left: 70px;
+}
+.copytext {
+  position: absolute;
+  color: white;
+  font-family: $font;
+  left: 70px;
+  top: 310px;
+}
+.copybutt {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+}

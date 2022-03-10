@@ -7,6 +7,7 @@ const SpeedMeasurePlugin = require("speed-measure-webpack-plugin");
 const smp = new SpeedMeasurePlugin();
 const TerserPlugin = require("terser-webpack-plugin");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const jsonloader = require('json-loader')
 let jses = "bundle.js";
 module.exports = {
     entry: './src/index.js',
@@ -36,9 +37,12 @@ module.exports = {
                         name: "[name].[ext]",
                         outputPath: 'img/'
                     }
-                }]
+                }],
+
             },
-        ]
+
+        ],
+
     },
 //<%= jses %>
     devServer: {

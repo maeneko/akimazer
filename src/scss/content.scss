@@ -28,10 +28,25 @@ $font: 'Noto Sans', sans-serif;
   top: 165px
 }
 .img-1 {
+  image-rendering: crisp-edges;
   position: absolute;
-  width: 670px;
-  height: 503px;
-  top: 30px;
-  left: 1000px;
-  background: url("https://i.imgur.com/zl3szXf.png") repeat;
+  width: 420px;
+  height: 315px;
+}
+.header-text5 {
+  color: white;
+  font-family: $font;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 45px;
+  position: absolute;
+  left: 35px;
+  top: 10px;
+}
+.donate {
+  position: absolute;
+  left: 1000px; /*Тут я буду матерится*/
+  top: 1275px;
+  height: 0px;
+  width: 100%;
 }

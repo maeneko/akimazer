@@ -1,3 +1,73 @@
 {
-  "ip": "0.0.0.0:0000"
+  "ip": "0.0.0.0:0000",
+  "NameServer": "JazzerAnarxi",
+  "images": [
+    [   
+       "https://i.imgur.com/yxmDfU2.png", "https://i.imgur.com/Y0taCUb.png", "https://i.imgur.com/aRuMBCb.png",
+       "https://i.imgur.com/zl3szXf.png"
+    ],
+    [
+      "https://cdn.discordapp.com/avatars/872877502362710018/77957ec496809c42e23c23a2966986c8.webp?size=80",
+      "https://cdn.discordapp.com/avatars/546682191342469120/3cdae249f396e1f8673b01a6c73c6cdd.webp?size=80",
+      "https://cdn.discordapp.com/avatars/797572800881098752/0cd2a037fd24a63a3e0c0f2bf405415e.webp?size=80",
+      "https://cdn.discordapp.com/avatars/595411470448197643/b27969d61b2330fa981e7b7b766da8f3.webp?size=80"
+    ]
+
+  ],
+  "Buttons": [
+    {
+      "id": 1, 
+      "title": "Главная",
+      "content": "Hahahaha"
+    },
+    {
+      "id": 2,
+      "title": "Донаты",
+      "content": "NotDonate"
+    },
+    {
+      "id": 3, 
+      "title": "Дискорд",
+      "content": "https://discord.gg/5p5Gqa5e4x"
+    },
+    {
+      "id": 4,
+      "title": "ВКонтакте",
+      "content": "https://vk.com/jazzerealife"
+    }
+  ],
+  "About": [
+    {
+      "id": 1,
+      "div_id": "block_name-1",
+      "p_id": "block_description-1",
+      "name": "Frizbi",
+      "description": "Где то там помогал...",
+      "avatar": "https://cdn.discordapp.com/avatars/872877502362710018/77957ec496809c42e23c23a2966986c8.webp?size=80"
+    },
+    {
+      "id": 2,
+      "div_id": "block_name-2",
+      "p_id": "block_description-2",
+      "name": "RibM",
+      "description": "Я. Сделал сайт.",
+      "avatar": "https://cdn.discordapp.com/avatars/546682191342469120/3cdae249f396e1f8673b01a6c73c6cdd.webp?size=80"
+    },
+    {
+      "id": 3,
+      "div_id": "block_name-3",
+      "p_id": "block_description-3",
+      "name": "Akimazer",
+      "description": "Он тут главный",
+      "avatar": "https://cdn.discordapp.com/avatars/797572800881098752/0cd2a037fd24a63a3e0c0f2bf405415e.webp?size=80"
+    },
+    {
+      "id": 4,
+      "div_id": "block_name-4",
+      "p_id": "block_description-4",
+      "name": "XDemon",
+      "description": "Главный строитель.",
+      "avatar": "https://cdn.discordapp.com/avatars/595411470448197643/b27969d61b2330fa981e7b7b766da8f3.webp?size=80"
+    }
+  ]
 }

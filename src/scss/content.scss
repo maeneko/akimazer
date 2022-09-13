@@ -1,5 +1,15 @@
 @import "https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap";
 $font: 'Noto Sans', sans-serif;
+@keyframes textDescription {
+  0% {
+    opacity: 0;
+    top: 0px;
+  }
+  100% {
+    opacity: 1;
+    top: 150px;
+  }
+}
 .Content {
   position: absolute;
   left: 0px;
@@ -40,13 +50,89 @@ $font: 'Noto Sans', sans-serif;
   font-size: 58px;
   line-height: 45px;
   position: absolute;
-  left: 35px;
+  left: 558px;
   top: 10px;
 }
-.donate {
+.about {
   position: absolute;
   left: 1000px; /*Тут я буду матерится*/
   top: 1275px;
   height: 0px;
   width: 100%;
+}
+.Block-about {
+  position: absolute;
+  left: -1000px;
+  top: 220px;
+  height: 800px;
+}
+.block-name {
+  position: absolute;
+  border-radius: 40px;
+  left: 0px;
+  top: 0px;
+  width: 400px;
+  height: 150px;
+  border: 4px rgb(255, 255, 255) solid;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer
+}
+.block-name_header {
+  color: white;
+  font-family: $font;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 45px;
+  position: absolute;
+  left: 150px;
+  top: -25px;
+  
+}
+.block-name_avatar {
+  width: 75px;
+  height: 75px;
+  border-radius: 60px;
+  position: absolute;
+  left: 25px;
+  top: 15px;
+}
+.block-name#block_name-2 {
+  left: 450px;
+}
+.block-name#block_name-3 {
+  left: 900px;
+  width: 450px;
+}
+.block-name#block_name-4 {
+  left: 1380px;
+  width: 450px;
+}
+.block-name_description {
+  position: absolute;
+  font-family: $font;
+  color: white;
+  left: 150px;
+  top: 080px;
+}
+.SpecialThanks {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  left: -1000px;
+  top: 425px;
+}
+.SP_header {
+  text-align: center;
+  color: white;
+  font-family: $font;
+}
+.SP_name {
+  position: grid;
+  text-align: center;
+  color: white;
+  font-family: $font;
 }
